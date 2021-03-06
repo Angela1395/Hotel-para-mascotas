@@ -1,0 +1,138 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #b7e6f3;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body {background: #b8dcdd;}
+#titulo {font-size: 60px;}
+
+*{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body{font-family: 'Century Gothic';}
+a{text-decoration: none;}
+ul{list-style: none;}
+img{max-width: 100%;}
+
+.title{
+width: 100%;
+background: #b8dcdd;
+height: 200px;
+font-family: Brush Script MT;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.title h1{
+color: lrgb(5, 2, 48);
+font-size: 34px;
+font-weight: 200;
+text-align: center;
+}
+
+.navegacion{
+width: 100%;
+background: #181757;
+display: flex;
+justify-content: center;
+}
+
+.menu{
+width: 1000px;
+display: flex;
+flex-wrap: wrap;
+height: 90px;
+}
+.menu li{
+flex-basis: 0;
+flex-grow: 1;
+border-right: 1px solid #ffffff;
+position: relative;
+}
+.menu .first-item{border-left: 1px solid #ffffff;}
+
+.menu li a{
+display: flex;
+flex-direction: column;
+font-size: 18px;
+}
+.menu li a .text-item{
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+color: #fff;
+top: 0%;
+position: absolute;
+z-index: 10;
+-webkit-transition: all 500ms cubic-bezier(0.175, 0.885, 0.320, 1);
+-webkit-transition: all 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
+-moz-transition: all 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
+-o-transition: all 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275); 
+  transition: all 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
+  -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+  -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.275);
+  -moz-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.275);
+  -o-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.275);
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.275);
+}
+.menu li a .down-item{
+position: absolute;
+top: 0%;
+width: 100%;
+height: 100%;
+background: #181757;
+-webkit-transition: all 200ms cubic-bezier(0.215, 0.610, 0.355, 1.000);
+-moz-transition: all 200ms cubic-bezier(0.215, 0.610, 0.355, 1.000);
+-o-transition: all 200ms cubic-bezier(0.215, 0.610, 0.355, 1.000);
+transition: all 200ms cubic-bezier(0.215, 0.610, 0.355, 1.000);
+-webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+-moz-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+-o-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000); 
+  transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+}
+
+.menu li:hover .down-item, .menu li:hover .text-item{top: 100%;height: 115%;}
+
+.menu li:hover .imagen{width: 100%;right: 0px;}
