@@ -14,8 +14,16 @@ Esta echo la página del Hotel con React. Dentro de React están implementado el
 
 Cada uno de ellos, estan importados en el SRC.
 La api principal está implementado junto con la App.js
+Se muestra en la siguiente imagen como sería:
 
 ![sfwef](https://user-images.githubusercontent.com/56442937/110205491-7b9d1700-7e78-11eb-9510-05b79cbf5cc9.png)
+
+
+# Logo-empresa
+
+El logo que hemos creado es el siguiente:
+![Logo-Hotel](https://user-images.githubusercontent.com/56442937/110205619-4ba24380-7e79-11eb-9cfa-c8ce41792293.png)
+
 
 
 
