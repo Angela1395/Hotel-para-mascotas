@@ -1,4 +1,3 @@
-
 import './App.css';
 import React from 'react';
 class App extends React.Component {
@@ -17,24 +16,12 @@ class App extends React.Component {
           });
         }
       });
-    }
-    render() {
-      const { url } = this.state;
-      return (
-        url !== '' && (
-          <body>
-          <div
-            id="imagen fondo"
-            style={{
-              height: '100vh',
-              position: 'absolute',
-              top: '0',
-              opacity: '0.4',
-              width: '100%',
-              backgroundSize: 'cover',
-              backgroundImage: `url(${url})`,
-            }}
-          ></div>
+  }
+  render() {
+    const { url } = this.state;
+    return (
+      url !== '' && (
+        <body>
           <section class="title">
             <h1>HOTEL PARA MASCOTAS</h1>
           </section>
@@ -90,6 +77,18 @@ class App extends React.Component {
               </li>
             </ul>
           </nav>
+          <div
+            id="imagen fondo"
+            style={{
+              height: '100vh',
+              position: 'absolute',
+              top: '0',
+              opacity: '0.4',
+              width: '100%',
+              backgroundSize: 'cover',
+              backgroundImage: `url(${url})`,
+            }}
+          ></div>
         </body>
       )
     );
