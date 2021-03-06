@@ -7,4 +7,16 @@ Cada usuario podrá colocar una imagen de sus mascotas, reseña de la pagina y o
 
 # Estructura
 
+Esta echo la página del Hotel con React. Dentro de React están implementado el:
+- HTML
+- CSS
+- JAVASCRIPT
+
+Cada uno de ellos, estan importados en el SRC.
+La api principal está implementado junto con la App.js
+
+![sfwef](https://user-images.githubusercontent.com/56442937/110205491-7b9d1700-7e78-11eb-9510-05b79cbf5cc9.png)
+
+
+
 
