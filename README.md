@@ -22,6 +22,8 @@ Se muestra en la siguiente imagen como sería:
 # Logo-empresa
 
 El logo que hemos creado es el siguiente:
+
+
 ![Logo-Hotel](https://user-images.githubusercontent.com/56442937/110205619-4ba24380-7e79-11eb-9cfa-c8ce41792293.png)
 
 
