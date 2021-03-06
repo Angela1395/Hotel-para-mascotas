@@ -5,5 +5,6 @@ Cada usuario podrá colocar una imagen de sus mascotas, reseña de la pagina y o
 
 [Trello](https://trello.com/b/SsgVdQLP/hotel-para-mascotas)
 
-# La structura
+# Estructura
+
 
