@@ -4,3 +4,6 @@ En esta aplicación para hotel para perros, pondremos un calendario de entrada y
 Cada usuario podrá colocar una imagen de sus mascotas, reseña de la pagina y otros usuarios a la vez, pueden comentar y darle me gusta a las fotos, asi como tambien ayudar a la plataforma a expandirse con enlaces de otras redes sociales, mandar un correo para que cambios y propuestas que crean que puedan mejorar la página. Creando perfiles de dichos usuarios, parecido a Facebook o Instagram.
 
 [Trello](https://trello.com/b/SsgVdQLP/hotel-para-mascotas)
+
+# La structura
+
